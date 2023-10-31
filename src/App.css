@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:url(./media/pexels-lukas-317356\(1\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.note{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 10px;
+  /* border: 2px solid red; */
+}
+.note .app-sidebar{
+  width: 100%;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+
+  height: fit-content;
+}
+
+.note .sidebar{
+  width: 500px;
+  margin: auto;
+}
+@media only screen and (max-width:767px){
+  .note .sidebar{
+    padding: 0;
+    width: 250px;
+    margin: auto;
+  }
+}
