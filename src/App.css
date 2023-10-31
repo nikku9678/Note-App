@@ -17,6 +17,7 @@ body{
   row-gap: 10px;
   padding: 10px;
   /* border: 2px solid red; */
+  overflow: hidden;
 }
 .note .app-sidebar{
   width: 100%;
